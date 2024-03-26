@@ -2,6 +2,21 @@ let day="tuesday"
 // to find length of the string
 console.log(day.length) 
 
+let answer="He is called 'Johnny'"
+console.log(answer) 
+
+let text="We are the so-called \"Vikings\" from the north."   //use backslash to give double quotes a string inside a string
+console.log(text)
+
+//Do not create Strings objects. The new keyword complicates the code and slows down execution speed. String objects can produce unexpected results:
+
+let x= "John"   // string literal
+let y= new String("John")   //string object
+
+console.log(x)
+console.log(y)
+
+
 // to find the char at the specified index
 console.log(day.charAt(2)) 
 

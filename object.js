@@ -1,4 +1,4 @@
-// object is the colection of properties
+// object is the collection of properties
 let person =
 {
     name: "Aman"
