@@ -67,14 +67,18 @@ for (var i = 1; i <= 10; i++) {
 
 
 
-//================================= for each loop=====================================
+//================================= for-of loop(used to iterate over strings and arrays)=====================================
 
 let arr = [12, 23, 44, 56, 78];
 //Printing array using for-each loop  
 for (let value of arr) {
     console.log(value)
 }
-
+ let str="JavaScript"
+ for(let val of str)
+ {
+    console.log("val", val);
+ }
 
 //==================== for loop=========================================
 
@@ -89,7 +93,16 @@ for (let i = 0; i < array.length; i++) {
     }
 }
 
-
+//=============== for in loop(deals with the objects and print the keys and values)
+let student={
+    name: "Aman",
+    age:30,
+    cgpa:8.5
+}
+for(let key in student)
+{
+    console.log("key=", key, "value=", student[key]);
+}
 //====================nested for loop======================================
 
 for (let i = 1; i <= 5; i++) {
