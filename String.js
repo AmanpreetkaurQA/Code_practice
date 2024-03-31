@@ -46,3 +46,8 @@ console.log(test)
 // trim the space in string 
 let trimstring=stringtest.trim()
 console.log(trimstring)
+
+// slice --- extracts a part of a string and returns the extracted part in a new string.
+const str = "Hello, World!";
+const sliced = str.slice(7, 12); // "World"
+console.log(sliced);
