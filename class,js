@@ -1,0 +1,25 @@
+class ToyotaCar{
+    constructor(brand, mileage)
+    {
+        console.log("Creating new objects")
+        this.brand=brand;
+        this.mileage=mileage;
+    }
+    start()
+    {
+        console.log("car start")
+    }
+    stop()
+    {
+        console.log("car stop")
+    }
+}
+
+let fortuner=new ToyotaCar("Fortuner",10) // constructor
+console.log(fortuner);
+fortuner.start();
+
+let lexus=new ToyotaCar("Lexus",15)
+console.log(lexus);
+lexus.stop();
+
